@@ -1,4 +1,4 @@
-async function fetchJSON(url) {
+async function fetch(url) {
   try {
     const response = await fetch(url);
     if (!response.ok) {
