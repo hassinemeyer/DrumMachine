@@ -14,3 +14,4 @@ export async function fetchJSON(url) {
     return null;  
   }
 }
+console.log("import fetchJSON")
